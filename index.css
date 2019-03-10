@@ -90,7 +90,7 @@ main h2 {
      padding: 20px;
  } 
 
- main . p {
+ main .p {
     color: var(--second-font-color);
     font-size: 30px;
     padding-bottom: 20px;
@@ -99,7 +99,9 @@ main h2 {
 
 main .services-makeup { 
      display: flex;
+     padding-top: 20px;
      justify-content: space-around;
+     grid-template-columns: 1fr 1fr 1fr;
 }
 
    main .services-makeup img {
@@ -115,6 +117,7 @@ main .services-makeup {
      width: 300px;
  }
  
+
  
 
 
