@@ -183,6 +183,10 @@ main p.events-text {
      margin: 20px;
 }
 
+main p > #email {
+    text-decoration: none;
+}
+
 main .events img {
     padding-top: 20px;
     width: 500px;
