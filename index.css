@@ -90,117 +90,183 @@ main h2 {
      padding: 20px;
  } 
 
- main .p {
-    color: var(--second-font-color);
-    font-size: 30px;
-    padding-bottom: 20px;
-}
-   
+ 
+ main p.title-services {
+     font-size: 20px;
+     font-weight: bold;
+     color: var(--second-font-color);
+     padding: 20px;
+     text-align: center;
+ }  
 
 main .services-makeup { 
-     display: flex;
-     padding-top: 20px;
+     display: grid;
      justify-content: space-around;
      grid-template-columns: 1fr 1fr 1fr;
+     grid-gap: 15px;
 }
 
    main .services-makeup img {
      width: 300px;
  }
  
- main .services-hair { 
-     display: flex;
+  main .services-hair { 
+     display: grid;
      justify-content: space-around;
+     grid-template-columns: 1fr 1fr 1fr;
+     grid-gap: 15px;
  }
- 
+
  main .services-hair img {
      width: 300px;
  }
+
+ main .services-brows {
+     display: grid;
+     justify-content: space-around;
+     grid-template-columns: 1fr 1fr 1fr;
+     grid-gap: 15px;
+     
+ }
+ main .services-brows img {
+     width: 300px;
+ }
  
-
+ main .services-lashes {
+     display: grid;
+     justify-content: space-around;
+     grid-template-columns: 1fr 1fr 1fr;
+     grid-gap: 15px;
+ }
+ main .services-lashes img {
+     width: 300px;
+ } 
  
-
-
-
-/*p.descriptionText {*/
-/*    text-align: center;*/
-/*    font-size: 20px;*/
-/*    color: #5d5656;*/
-
-/*}*/
-
-/*.interior1Image {*/
-/*    width: 700px;*/
-/*}*/
-
-/*.imageFlex {*/
-/*    display: flex;*/
-/*    align-items: center;*/
-/*    justify-content: center;*/
-
-/*}*/
-
-/*p.welcome {text-align: center;
-	       font-size: 40px;
-	       color:  #f17e75;
+main h3 {
+     color: var(--second-font-color);
+     font-size: 40px;
+     font-weight: bold;
+     text-align: center;
+     padding: 20px;
+ }
+ 
+ main p.serficates-text {
+     text-align: center;
+     color: var(--description-font-color);
+     font-size: 18px;
+     
+ }
+ 
+ main .serficates-gifts {  /*розташування сертифыкатыв */
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     justify-content: space-around;
 }
-*/
-/*h2 {*/
-/*    text-align: center;*/
-/*    font-size: 33px;*/
-/*    color: #ffa382;*/
-/*}*/
+main .serficates-gifts img {
+    width: 500px;
+}
 
-/*p.services {*/
-/*    color: #ffa382;*/
-/*    font-weight: bold;*/
+main h4 {
+    color: var(--second-font-color);
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+    
+}
 
-/*}*/
+main p.events-text {
+    text-align: center;
+     color: var(--description-font-color);
+     font-size: 20px;
+     padding-top:200px;
+     margin: 20px;
+}
 
-/*p.menuTitles {*/
-/*    text-align: center;*/
-/*    font-size: 33px;*/
-/*    color: #ffa382;*/
-/*    font-weight: bold;*/
-/*}*/
+main .events img {
+    padding-top: 20px;
+    width: 500px;
+    float: left;
+}
 
-/*p.giftSertificatesText {*/
-/*    text-align: center;*/
-/*    font-size: 20px;*/
-/*    color: #5d5656;*/
-/*}*/
+.clear {
+    clear:both;
+}
 
+main h5 {
+    color: var(--second-font-color);
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+    clear: both;
+}
+ 
+main p.text-contacts {
+    color: var(--description-font-color);
+    font-size: 20px;
+    text-align: center;
+    padding-top: 125px;
+    
+}
 
-/*p.specialEventsText {*/
-/*    text-align: center;*/
-/*    font-size: 20px;*/
-/*    color: #5d5656;*/
-/*}*/
-
-/*p.ourContacts {*/
-    /* text-align: center*/
-/*    ;*/
-/*    font-size: 20px;*/
-/*    color: #ffa382;*/
-/*    font-weight: bold;*/
-
-
-/*}*/
-
-/*p.ourContactsText {*/
-/*    font-size: 20px;*/
-/*    color: #5d5656;*/
-/*}*/
-
-/*p.registerOnline {*/
-/*    font-size: 20px;*/
-/*    color: #ffa382;*/
-/*    font-weight: bold;*/
-
-/*}*/
+ 
+main .our-contacts img {
+    padding-top: 20px;
+    width: 500px;
+    float: right;
+}
 
 
+footer h6 {
+    color: var(--second-font-color);
+    font-size: 33px;
+    font-weight: bold;
+    text-align: center;
+    padding: 30px;
+    clear: both;
+}
 
-/*p.footer { color: #968d8d;*/
-/*    text-align: center;*/
-/*}*/
+footer p {
+    color: var(--description-font-color);
+    font-size: 19px;
+    text-align: center;
+    padding-bottom: 20px;
+    
+}
+
+ 
+ footer form input[type="text"], [type="email"], [type="tel"] {
+     width: 190px;
+     height: 30px;
+     font-size: 17px;
+     margin-bottom: 4px;
+     padding-left: 10px;
+     
+ }
+ 
+ footer form input[type="submit"] {
+    width: 100px;
+    height: 50px;
+    border: 1px solid var(--description-font-color);
+    background: white;
+ }
+  
+
+ footer form .submit:hover {
+     background: var(--second-font-color);
+    color: var(--description-font-color);
+ }
+
+
+footer .logo-footer img {
+    width: 50px;
+    padding-top: 20px;
+ }
+
+footer p.footer {
+    text-align: center;
+    color: var(--description-font-color);
+    font-size: 14px;
+}
+
