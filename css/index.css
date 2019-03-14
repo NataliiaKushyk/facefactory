@@ -102,7 +102,7 @@ main p.title-services {
 main .services-makeup {
   display: grid;
   justify-content: space-around;
-  grid-template-columns: 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 15px;
 }
 
