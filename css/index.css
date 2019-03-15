@@ -31,9 +31,6 @@ header .logoFlex {
 
 header nav .menu {
   display: flex;
-  /*flex-direction: column;*/
-  /*justify-content: center;*/
-  /*align-items: center;*/
 }
 
 header nav .menu {
@@ -105,22 +102,6 @@ main .services-makeup {
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 15px;
 }
-
-/*@media (min-width: 600px) and (max-device-width: 899px) {*/
-/*    main .services-makeup {*/
-/*        display: grid;*/
-/*        grid-template-columns: 1fr 1fr;*/
-/*        grid-gap: 15px;*/
-/*    }*/
-/*}*/
-
-/*@media (min-width: 900px) {*/
-/*    main .services-makeup {*/
-/*        display: grid;*/
-/*        grid-template-columns: 1fr 1fr 1fr;*/
-/*        grid-gap: 15px;*/
-/*    }*/
-/*}*/
 
 main .services-makeup img {
   width: 300px;
